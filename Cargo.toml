@@ -1,0 +1,21 @@
+[package]
+name = "traitor"
+version = "0.1.0"
+authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+traitor-derive = { version = "0.1.0", path = "./traitor-derive" }
+typed-arena = "1.4.1"
+dynasmrt = "0.2.3"
+# need proc macro variant
+dynasm = { git = "https://github.com/CensoredUsername/dynasm-rs.git", optional = true, rev = "e2bcdebfd20121441bccedf5951576387e9f7a40" }
+
+[features]
+default = []
+
+[workspace]
+members = [
+    ".",
+    "traitor-derive",
+]
