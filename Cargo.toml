@@ -7,7 +7,7 @@ repository = "https://github.com/idubrov/traitor"
 license = "MIT/Apache-2.0"
 
 [dependencies]
-traitor-derive = { version = "0.1.0", path = "./traitor-derive" }
+traitor-derive = { version = "0.0.0", path = "./traitor-derive" }
 typed-arena = "1.4.1"
 dynasmrt = "0.2.3"
 # need proc macro variant

@@ -1,6 +1,6 @@
 [package]
 name = "traitor-derive"
-version = "0.1.0"
+version = "0.0.0"
 authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
 edition = "2018"
 

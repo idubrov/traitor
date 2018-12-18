@@ -63,13 +63,13 @@ name = "traitor"
 version = "0.0.0"
 dependencies = [
  "dynasmrt 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
- "traitor-derive 0.1.0",
+ "traitor-derive 0.0.0",
  "typed-arena 1.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "traitor-derive"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "proc-macro2 0.4.24 (registry+https://github.com/rust-lang/crates.io-index)",
  "quote 0.6.10 (registry+https://github.com/rust-lang/crates.io-index)",
