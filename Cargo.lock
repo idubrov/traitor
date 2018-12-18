@@ -97,7 +97,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "traitor"
-version = "0.1.0"
+version = "0.0.0"
 dependencies = [
  "dynasm 0.2.3 (git+https://github.com/CensoredUsername/dynasm-rs.git?rev=e2bcdebfd20121441bccedf5951576387e9f7a40)",
  "dynasmrt 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",

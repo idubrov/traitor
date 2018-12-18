@@ -1,8 +1,10 @@
 [package]
 name = "traitor"
-version = "0.1.0"
+version = "0.0.0"
 authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/idubrov/traitor"
+license = "MIT/Apache-2.0"
 
 [dependencies]
 traitor-derive = { version = "0.1.0", path = "./traitor-derive" }
