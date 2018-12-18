@@ -3,6 +3,9 @@ name = "traitor-derive"
 version = "0.0.0"
 authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/idubrov/traitor"
+license = "MIT/Apache-2.0"
+description = "procmacro for the traitor crate"
 
 [lib]
 proc-macro = true

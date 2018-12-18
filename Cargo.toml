@@ -5,6 +5,9 @@ authors = ["Ivan Dubrov <dubrov.ivan@gmail.com>"]
 edition = "2018"
 repository = "https://github.com/idubrov/traitor"
 license = "MIT/Apache-2.0"
+description = """
+A library to generate trait object vtables at runtime.
+"""
 
 [dependencies]
 traitor-derive = { version = "0.0.0", path = "./traitor-derive" }
