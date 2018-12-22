@@ -3,6 +3,7 @@
 DIR=`dirname $0`
 
 pushd "${DIR}"
+cargo readme > README.md
 cargo test
 popd
 

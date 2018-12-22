@@ -18,6 +18,7 @@ dynasmrt = "0.2.3"
 
 [dev-dependencies]
 evmap = "4.0.1"
+cargo-readme = "3.1.2"
 
 [features]
 default = []
