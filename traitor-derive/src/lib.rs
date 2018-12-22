@@ -180,7 +180,7 @@ fn generate_shadow(mut shadow_trait: ItemTrait) -> Result<proc_macro2::TokenStre
     };
 
     let bind_box = quote! {
-        pub fn #bind_box_ident<'b, D>(
+        #visibility fn #bind_box_ident<'b, D>(
             data: Box<D>,
             binder: &'b traitor::Binder<D, #target_ident>
         ) -> Box<#target_ident + 'b> {

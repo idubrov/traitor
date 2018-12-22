@@ -14,6 +14,11 @@ dependencies = [
 ]
 
 [[package]]
+name = "evmap"
+version = "4.0.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
 name = "libc"
 version = "0.2.43"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -63,6 +68,7 @@ name = "traitor"
 version = "0.0.0"
 dependencies = [
  "dynasmrt 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "evmap 4.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "traitor-derive 0.0.0",
  "typed-arena 1.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
@@ -108,6 +114,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [metadata]
 "checksum byteorder 1.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "90492c5858dd7d2e78691cfb89f90d273a2800fc11d98f60786e5d87e2f83781"
 "checksum dynasmrt 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "cecfc9019e3f0c585f2bad0ca008073031900c50f369398c3a26728b336e326e"
+"checksum evmap 4.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "9a77aa885ad8f918dfd1e2100d1f985a37e21e76d3c0c1613419ce6e89875813"
 "checksum libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)" = "76e3a3ef172f1a0b9a9ff0dd1491ae5e6c948b94479a3021819ba7d860c8645d"
 "checksum memmap 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e2ffa2c986de11a9df78620c01eeaaf27d94d3ff02bf81bfcca953102dd0c6ff"
 "checksum proc-macro2 0.4.24 (registry+https://github.com/rust-lang/crates.io-index)" = "77619697826f31a02ae974457af0b29b723e5619e113e9397b8b82c6bd253f09"

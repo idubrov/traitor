@@ -1,6 +1,6 @@
 use std::sync::atomic::{AtomicUsize, Ordering};
 
-pub struct Metadata;
+struct Metadata;
 
 #[traitor::shadow]
 trait Annotated {
@@ -10,7 +10,7 @@ trait Annotated {
 unsafe impl AnnotatedShadow for Metadata {
     type Data = ValueWithDrop;
 
-    fn hello<'data>(data: &'data ValueWithDrop, meta: &'data Metadata) -> &'static str {
+    fn hello<'data>(_data: &'data ValueWithDrop, _meta: &'data Metadata) -> &'static str {
         "hello"
     }
 }
