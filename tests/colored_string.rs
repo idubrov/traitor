@@ -28,10 +28,10 @@ unsafe impl ColoredShadow for Color {
 
     /// In the shadow trait, each function is the same as in the original trait with two differences:
     /// 1. First argument becomes reference to the data instead of `&self`. The value passed here
-    /// is `&self` reference on which [`Colored::color`] trait object function is invoked.
+    /// is `&self` reference on which `Colored::color` trait object function is invoked.
     /// 2. An additional argument is added at the end. This argument is the reference to the
     /// metadata we pre-allocated. It's of the type `Self`, therefore this trait is supposed to be
-    /// implemented on the metadata type ([`Color`] in our case).
+    /// implemented on the metadata type (`Color` in our case).
     fn color<'data>(_data: &'data String, meta: &'data Self) -> Color {
         // Juts return a clone of ourselves!
         meta.clone()
